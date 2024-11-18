@@ -58,3 +58,13 @@ const grillo = "lopez";
 
 // boolean
 
+
+//let esMayorDeEdad = true;
+//let tienePermiso = false;
+
+//if (esMayorDeEdad && tienePermiso) {
+    //console.log("Puedes entrar al evento.");
+//} else {
+    //console.log("No puedes entrar al evento.");
+//}
+
