@@ -59,12 +59,62 @@ const grillo = "lopez";
 // boolean
 
 
-//let esMayorDeEdad = true;
-//let tienePermiso = false;
+// let esMayorDeEdad = true;
+// let tienePermiso = false;
 
-//if (esMayorDeEdad && tienePermiso) {
-    //console.log("Puedes entrar al evento.");
-//} else {
-    //console.log("No puedes entrar al evento.");
-//}
+// if (esMayorDeEdad && tienePermiso) {
+//     //console.log("Puedes entrar al evento.");
+// } else {
+//     console.log("No puedes entrar al evento.");
+// }
 
+
+
+
+
+// Que son las funciones y que tipos de funciones existente en JavaScript (de
+//     ejemplos)
+    
+
+// Function declarativa
+// function saludo(nombre = "Amigo") {
+//     // Función de flecha
+//     const mensaje = () => 'Hola, ${nombre}!';
+//     // Function generadora
+//     function* contador() {
+//         yield "Iniciando saludo...";
+//         yield mensaje();  // Llama a la función de flecha
+//     }
+    
+//     // Función autoejecutable (IIFE)
+//     (function() {
+//         const gen = contador();
+//         console.log(gen.next().value);  // "Iniciando saludo..."
+//         console.log(gen.next().value);  // "Hola, Amigo!"
+//     })();
+// }
+
+saludo();  // Llama a la función sin parámetros
+saludo("Juan");  // Llama a la función con un nombre específico
+
+
+let uno = 1;
+let dos = new Number(2);
+let tres = "3.5";
+console.log(dos);
+let flotante = 7.1542;
+console.log(flotante.toFixed(1));
+let nuevo = parseFloat(tres);
+
+if (typeof tres === "number") {
+    console.log(tres * nuevo);
+}else{
+    console.log("NO");
+    
+}
+console.log(typeof entrada);
+
+console.log(typeof tres === "number")
+
+let respues = confirm("desean salir a comer?")
+alert(respues)
