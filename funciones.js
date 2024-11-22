@@ -46,13 +46,10 @@
 // console.log(respuesta);
 
 
-const flecha =  (a, b) => {
- return a * b;
-}
+// const flecha =  (a, b) => {
+//  return a * b;
+// }
 
-let respuesta = flecha(4, 5);
+// let respuesta = flecha(4, 5);
 
-console.log(respuesta);
-
-
-
+// console.log(respuesta);

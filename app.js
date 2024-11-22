@@ -98,23 +98,26 @@ saludo();  // Llama a la función sin parámetros
 saludo("Juan");  // Llama a la función con un nombre específico
 
 
-let uno = 1;
-let dos = new Number(2);
-let tres = "3.5";
-console.log(dos);
-let flotante = 7.1542;
-console.log(flotante.toFixed(1));
-let nuevo = parseFloat(tres);
+// let uno = 1;
+// let dos = new Number(2);
+// let tres = "3.5";
+// console.log(dos);
+// let flotante = 7.1542;
+// console.log(flotante.toFixed(1));
+// let nuevo = parseFloat(tres);
 
-if (typeof tres === "number") {
-    console.log(tres * nuevo);
-}else{
-    console.log("NO");
+// if (typeof tres === "number") {
+//     console.log(tres * nuevo);
+// }else{
+//     console.log("NO");
     
-}
-console.log(typeof entrada);
+// }
+// console.log(typeof entrada);
 
-console.log(typeof tres === "number")
+// console.log(typeof tres === "number")
 
-let respues = confirm("desean salir a comer?")
-alert(respues)
+// let respues = confirm("desean salir a comer?")
+// alert(respues)
+
+
+
